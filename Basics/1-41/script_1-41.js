@@ -126,5 +126,11 @@ dfsdf */
 
 
 // Задание 32 №1
-let str32 = `abc`;
-alert(str32);
+// let str32 = `abc`;
+// alert(str32);
+
+
+
+// Задание 33 №1
+let a_33;
+alert(a_33);
