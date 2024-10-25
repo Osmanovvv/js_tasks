@@ -186,8 +186,14 @@ dfsdf */
 
 
 // Задание 40 №1
-console.log(10, -5, 0);
-console.log(3.14, -2.5, 1.0);
-console.log('hey');
-console.log(true, false);
-console.log('A', '!', '*');
+// console.log(10, -5, 0);
+// console.log(3.14, -2.5, 1.0);
+// console.log('hey');
+// console.log(true, false);
+// console.log('A', '!', '*');
+
+
+
+
+// Задание 41 №1
+alert(mistake);
