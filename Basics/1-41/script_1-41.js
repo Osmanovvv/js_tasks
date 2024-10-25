@@ -150,5 +150,13 @@ dfsdf */
 
 
 // Задание 36 №1
-let a_36 = false;
-alert(a_36);
+// let a_36 = false;
+// alert(a_36);
+
+
+
+
+// Задание 37 №1
+let str37 = "disney";
+let str37_1 = "movie";
+alert(str37 * str37_1);
