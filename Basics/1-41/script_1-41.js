@@ -81,5 +81,14 @@ dfsdf */
 // alert(a25_1 % b25_1)
 
 // Задание 26 №1
-let a26 = 2;
-alert(a26 ** 10);
+// let a26 = 2;
+// alert(a26 ** 10);
+
+
+
+// Задание 28 №1
+let name28 = "Server";
+alert(name28);
+
+let surname28_1 = "Osmanov";
+alert(surname28_1);
