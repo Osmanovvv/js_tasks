@@ -144,5 +144,11 @@ dfsdf */
 
 
 // Задание 35 №1
-let a_35 = true;
-alert(a_35);
+// let a_35 = true;
+// alert(a_35);
+
+
+
+// Задание 36 №1
+let a_36 = false;
+alert(a_36);
