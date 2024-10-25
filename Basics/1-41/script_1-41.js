@@ -157,6 +157,15 @@ dfsdf */
 
 
 // Задание 37 №1
-let str37 = "disney";
-let str37_1 = "movie";
-alert(str37 * str37_1);
+// let str37 = "disney";
+// let str37_1 = "movie";
+// alert(str37 * str37_1);
+
+
+
+
+// Задание 38 №1
+alert( 10 / 0); 
+
+// Задание 38 №2
+alert(-10 / 0);
