@@ -165,7 +165,19 @@ dfsdf */
 
 
 // Задание 38 №1
-alert( 10 / 0); 
+// alert( 10 / 0); 
 
 // Задание 38 №2
-alert(-10 / 0);
+// alert(-10 / 0);
+
+
+
+// Задание 39 №1
+let num39_1 = 5;
+console.log(num39_1);
+
+// Задание 39 №2
+let num39_2 = 5;
+let num39_3 = 15;
+let num39_4 = 25;
+console.log(num39_2, num39_3, num39_4);
