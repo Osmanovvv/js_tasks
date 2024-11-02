@@ -58,5 +58,23 @@
 // alert(a);
 
 // Задание 43 №14
-let a = '' + 3 + 1;
-alert(a);
+// let a = '' + 3 + 1;
+// alert(a);
+
+
+
+
+
+// Задание 44 №1
+// let a44 = Number('10'); 
+// let b44 = Number('20'); 
+// alert(a44 + b44); 
+
+// Задание 44 №2
+// alert( Number('2') + Number('3') );
+
+// Задание 44 №3
+// alert( 2 + Number('3') );
+
+// Задание 44 №4
+alert( '2' + Number('3') );
