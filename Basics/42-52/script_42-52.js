@@ -120,7 +120,31 @@
 // alert(String(a49_1).length);
 
 // Задание 49 №2
-let a49_2 = 55; 
-let b49_2 = 245;   
-let sum49_2 = String(a49_2).length + String(b49_2).length;
-alert(sum49_2);
+// let a49_2 = 55; 
+// let b49_2 = 245;   
+// let sum49_2 = String(a49_2).length + String(b49_2).length;
+// alert(sum49_2);
+
+
+
+
+// Задание 50 №1
+// alert(true + 3);
+
+// Задание 50 №2
+// alert(true + true);
+
+// Задание 50 №3
+// alert(true - true);
+
+// Задание 50 №4
+// alert(true + false);
+
+// Задание 50 №5
+// alert('1' + true);
+
+// Задание 50 №6
+// alert( String(true) + 1 );
+
+// Задание 50 №7
+alert( String(true) + Number(true) );
