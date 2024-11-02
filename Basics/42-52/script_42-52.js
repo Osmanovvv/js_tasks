@@ -100,6 +100,14 @@
 // alert(a47_2 + b47_2);
 
 // Задание 47 №3
-let a47_3 = parseFloat('5.5px');
-let b47_3 = parseFloat('6.25px');
-alert(a47_3 + b47_3 + 'px');
+// let a47_3 = parseFloat('5.5px');
+// let b47_3 = parseFloat('6.25px');
+// alert(a47_3 + b47_3 + 'px');
+
+
+
+
+// Задание 48 №1
+let a48 = 5;
+let b48 = 45;
+alert(String(a48) + String(b48)); 
