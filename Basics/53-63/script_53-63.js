@@ -138,7 +138,18 @@
 
 
 // Задание 63 №1
-let num63_1 = Number(prompt('Введите первое число'));
-let num63_2 = Number(prompt('Введите второе число'));
+// let num63_1 = Number(prompt('Введите первое число'));
+// let num63_2 = Number(prompt('Введите второе число'));
 
-alert(num63_1 + num63_2); // теперь будет складывать числа
+// alert(num63_1 + num63_2);
+
+// Задание 63 №2
+let side = Number(prompt('Введите сторону квадрата'));
+let s = side * side;
+alert('Площадь квадрата: ' + s);
+
+// Задание 63 №3
+let length = Number(prompt('Введите длину прямоугольника'));
+let width = Number(prompt('Введите ширину прямоугольника'));
+let p = 2 * (length + width);
+alert('Периметр прямоугольника: ' + p);
