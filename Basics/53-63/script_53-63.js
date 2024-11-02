@@ -14,5 +14,23 @@
 
 
 // Задание 55 №1
-let test55 = '12345'; 
-alert(Number(test55[0]) + Number(test55[1]) + Number(test55[2]) + Number(test55[3]) + Number(test55[4]));
+// let test55 = '12345'; 
+// alert(Number(test55[0]) + Number(test55[1]) + Number(test55[2]) + Number(test55[3]) + Number(test55[4]));
+
+
+
+// Задание 56 №1
+let test56_1 = String(12345);
+alert(Number(test56_1[0]) * Number(test56_1[1]) * Number(test56_1[2]) * Number(test56_1[3]) * Number(test56_1[4]));
+
+// Задание 56 №2
+let test56_2 = String(12345);
+alert(Number(test56_2[0]) * Number(test56_2[1]) * Number(test56_2[2]) * Number(test56_2[3]) * Number(test56_2[4])); 
+
+// Задание 56 №3
+let test56_3 = String(12345);
+alert(Number(test56_3[4])); 
+alert(Number(test56_3[3])); 
+alert(Number(test56_3[2])); 
+alert(Number(test56_3[1])); 
+alert(Number(test56_3[0]));
