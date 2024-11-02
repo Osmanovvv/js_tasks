@@ -233,5 +233,26 @@
 // alert(test); 
 
 // Задание 51 №21
-let test = Boolean(1 / 0);
-alert(test);
+// let test = Boolean(1 / 0);
+// alert(test);
+
+
+
+// Задание 52 №1
+let str52_1 = 'abcde';
+alert(str52_1[0]); 
+alert(str52_1[2]); 
+alert(str52_1[4]); 
+
+// Задание 52 №2
+let str52_2 = 'abcde';
+alert(str52_2[4]); 
+alert(str52_2[3]); 
+alert(str52_2[2]); 
+alert(str52_2[1]); 
+alert(str52_2[0]);
+
+// Задание 52 №3
+let str52_3 = 'abcde';
+let num = 3; 
+alert(str52_3[num]);
