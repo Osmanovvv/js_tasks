@@ -77,4 +77,11 @@
 // alert( 2 + Number('3') );
 
 // Задание 44 №4
-alert( '2' + Number('3') );
+// alert( '2' + Number('3') );
+
+
+
+// Задание 45 №1
+let a = '2';
+let b = '3';
+alert(+a + +b);
