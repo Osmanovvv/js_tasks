@@ -64,8 +64,58 @@
 
 
 // Задание 59 №1
-let num59 = 10;
-num59 ++;
-num59 ++;
-num59 --;
-alert(num59);
+// let num59 = 10;
+// num59 ++;
+// num59 ++;
+// num59 --;
+// alert(num59);
+
+
+
+
+// Задание 60 №1
+// let num = 3;
+// alert(++num);
+
+// Задание 60 №2
+// let num = 3;
+// alert(num++);
+
+// Задание 60 №3
+// let num = 3;
+// alert(--num);
+
+// Задание 60 №4
+// let num = 3;
+// alert(num--);
+
+// Задание 60 №5
+// let num1 = 3;
+// let num2 = ++num1;
+// alert(num1);
+// alert(num2);
+
+// Задание 60 №6
+// let num1 = 3;
+// let num2 = num1++;
+// alert(num1);
+// alert(num2);
+
+// Задание 60 №7
+// let num1 = 3;
+// let num2 = --num1;
+// alert(num1);
+// alert(num2);
+
+// Задание 60 №8
+// let num1 = 3;
+// let num2 = num1--;
+// alert(num1);
+// alert(num2);
+
+// Задание 60 №9
+let num1 = 3;
+num1++;
+let num2 = num1--;
+alert(num1++);
+alert(--num2);
