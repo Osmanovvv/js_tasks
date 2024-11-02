@@ -147,4 +147,91 @@
 // alert( String(true) + 1 );
 
 // Задание 50 №7
-alert( String(true) + Number(true) );
+// alert( String(true) + Number(true) );
+
+
+
+
+// Задание 51 №1
+// let test = Boolean(3);
+// alert(test)
+
+// Задание 51 №2
+// let test = Boolean(0);
+// alert(test)
+
+// Задание 51 №3
+// let test = Boolean(-1);
+// alert(test)
+
+// Задание 51 №4
+// let test = Boolean(-0);
+// alert(test)
+
+// Задание 51 №5
+// let test = Boolean(+0);
+// alert(test)
+
+// Задание 51 №6
+// let test = Boolean('abc');
+// alert(test)
+
+// Задание 51 №7
+// let test = Boolean('');
+// alert(test)
+
+// Задание 51 №8
+// let test = Boolean('0');
+// alert(test)
+
+// Задание 51 №9
+// let test = Boolean(true);
+// alert(test)
+
+// Задание 51 №10
+// let test = Boolean(false);
+// alert(test)
+
+// Задание 51 №11
+// let test = Boolean('true');
+// alert(test)
+
+// Задание 51 №12
+// let test = Boolean('false');
+// alert(test)
+
+// Задание 51 №13
+// let test = Boolean(null);
+// alert(test)
+
+// Задание 51 №14
+// let test = Boolean('null');
+// alert(test)
+
+// Задание 51 №15
+// let test = Boolean(undefined);
+// alert(test)
+
+// Задание 51 №16
+// let test = Boolean('undefined');
+// alert(test)
+
+// Задание 51 №17
+// let test = Boolean(NaN);
+// alert(test);
+
+// Задание 51 №18
+// let test = Boolean('NaN');
+// alert(test);
+
+// Задание 51 №19
+// let test = Boolean(3 * 'abc');
+// alert(test);
+
+// Задание 51 №20
+// let test = Boolean(Infinity);
+// alert(test); 
+
+// Задание 51 №21
+let test = Boolean(1 / 0);
+alert(test);
