@@ -91,7 +91,23 @@
 
 
 // Задание 75 №1
-let arr75 = [];
-arr75[3] = 'a';
-arr75[8] = 'b';
-console.log(arr75.length);
+// let arr75 = [];
+// arr75[3] = 'a';
+// arr75[8] = 'b';
+// console.log(arr75.length);
+
+
+
+
+// Задание 76 №1
+let arr76_1 = [];
+arr76_1.push(1);
+arr76_1.push(2);
+arr76_1.push(3);
+console.log(arr76_1)
+
+// Задание 76 №2
+let arr76_2 = [1, 2, 3];
+arr76_2.push(4);
+arr76_2.push(5);
+console.log(arr76_2)
