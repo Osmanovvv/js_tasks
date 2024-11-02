@@ -196,4 +196,8 @@ dfsdf */
 
 
 // Задание 41 №1
-alert(mistake);
+// alert(mistake);
+
+
+
+
