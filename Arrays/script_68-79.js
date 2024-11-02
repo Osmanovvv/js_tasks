@@ -34,9 +34,19 @@
 
 
 // Задание 70 №1
-let arr70_1 = ['disney', 'princess', 'tiana'];
-console.log(arr70_1.length) 
+// let arr70_1 = ['disney', 'princess', 'tiana'];
+// console.log(arr70_1.length) 
 
 // Задание 70 №2
-let arr70_2 = ['disney', 'princess', 'tiana', 'cartoon'];
-console.log(arr70_2[arr70_2.length - 1]) 
+// let arr70_2 = ['disney', 'princess', 'tiana', 'cartoon'];
+// console.log(arr70_2[arr70_2.length - 1]) 
+
+
+
+
+// 71 №1
+let arr71_1 = ['a', 'b', 'c'];
+arr71_1[0] = '1';
+arr71_1[1] = '2';
+arr71_1[2] = '3';
+console.log(arr71_1);
