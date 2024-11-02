@@ -20,17 +20,32 @@
 
 
 // Задание 56 №1
-let test56_1 = String(12345);
-alert(Number(test56_1[0]) * Number(test56_1[1]) * Number(test56_1[2]) * Number(test56_1[3]) * Number(test56_1[4]));
+// let test56_1 = String(12345);
+// alert(Number(test56_1[0]) * Number(test56_1[1]) * Number(test56_1[2]) * Number(test56_1[3]) * Number(test56_1[4]));
 
 // Задание 56 №2
-let test56_2 = String(12345);
-alert(Number(test56_2[0]) * Number(test56_2[1]) * Number(test56_2[2]) * Number(test56_2[3]) * Number(test56_2[4])); 
+// let test56_2 = String(12345);
+// alert(Number(test56_2[0]) * Number(test56_2[1]) * Number(test56_2[2]) * Number(test56_2[3]) * Number(test56_2[4])); 
 
 // Задание 56 №3
-let test56_3 = String(12345);
-alert(Number(test56_3[4])); 
-alert(Number(test56_3[3])); 
-alert(Number(test56_3[2])); 
-alert(Number(test56_3[1])); 
-alert(Number(test56_3[0]));
+// let test56_3 = String(12345);
+// alert(Number(test56_3[4])); 
+// alert(Number(test56_3[3])); 
+// alert(Number(test56_3[2])); 
+// alert(Number(test56_3[1])); 
+// alert(Number(test56_3[0]));
+
+
+
+
+// Задание 57 №1
+// let num = 1;
+// num = num + 1;
+// num = num + 1;
+// alert(num);
+
+// Задание 57 №2
+let num = 1;
+num = num + 2;
+num = num + 3;
+alert(num);
