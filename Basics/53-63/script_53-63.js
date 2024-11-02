@@ -144,12 +144,16 @@
 // alert(num63_1 + num63_2);
 
 // Задание 63 №2
-let side = Number(prompt('Введите сторону квадрата'));
-let s = side * side;
-alert('Площадь квадрата: ' + s);
+// let side = Number(prompt('Введите сторону квадрата'));
+// let s = side * side;
+// alert('Площадь квадрата: ' + s);
 
 // Задание 63 №3
-let length = Number(prompt('Введите длину прямоугольника'));
-let width = Number(prompt('Введите ширину прямоугольника'));
-let p = 2 * (length + width);
-alert('Периметр прямоугольника: ' + p);
+// let length = Number(prompt('Введите длину прямоугольника'));
+// let width = Number(prompt('Введите ширину прямоугольника'));
+// let p = 2 * (length + width);
+// alert('Периметр прямоугольника: ' + p);
+
+
+
+
