@@ -114,8 +114,17 @@
 // alert(num2);
 
 // Задание 60 №9
-let num1 = 3;
-num1++;
-let num2 = num1--;
-alert(num1++);
-alert(--num2);
+// let num1 = 3;
+// num1++;
+// let num2 = num1--;
+// alert(num1++);
+// alert(--num2);
+
+
+
+
+// Задание 61 №1
+alert(0.1 * 0.2);
+
+// Задание 61 №2
+alert(0.3 - 0.1);
