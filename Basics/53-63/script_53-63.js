@@ -45,7 +45,18 @@
 // alert(num);
 
 // Задание 57 №2
-let num = 1;
-num = num + 2;
-num = num + 3;
-alert(num);
+// let num = 1;
+// num = num + 2;
+// num = num + 3;
+// alert(num);
+
+
+
+
+// Задание 58 №1
+let num58 = 47;
+num58 += 7;
+num58 -= 18;
+num58 *= 10;
+num58 /= 15;
+alert(num58);
