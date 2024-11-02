@@ -76,13 +76,22 @@
 
 
 // Задание 74 №1
-let arr74 = [];
-arr74[0] = 1;
-arr74[1] = 2;
-arr74[2] = 3;
-console.log(arr74); 
+// let arr74 = [];
+// arr74[0] = 1;
+// arr74[1] = 2;
+// arr74[2] = 3;
+// console.log(arr74); 
 
 // Задание 74 №2
-arr74[3] = 4;
-arr74[4] = 5;
-console.log(arr74);
+// arr74[3] = 4;
+// arr74[4] = 5;
+// console.log(arr74);
+
+
+
+
+// Задание 75 №1
+let arr75 = [];
+arr75[3] = 'a';
+arr75[8] = 'b';
+console.log(arr75.length);
