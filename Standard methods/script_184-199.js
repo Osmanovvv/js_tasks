@@ -34,3 +34,37 @@ console.log(floor185_2, ceil185_2);
 console.log('Результат задания 186 №1:');
 console.log('Максимальное число: ' + (Math.max(4, -2, 5, 19, -130, 0, 10)));
 console.log('Минимальное число: ' + Math.min(4, -2, 5, 19, -130, 0, 10));
+
+
+// Задание 187 №1
+console.log('Результат задания 187 №1:');
+function getRandomInt(min, max) {
+	return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+console.log(getRandomInt(1, 100));
+
+// Задание 187 №2
+console.log('Результат задания 187 №2:');
+let arr187_2 = [];
+for (let i = 0; i <= 9; i++){
+    arr187_2[i] = getRandomInt(55, 100);
+}
+console.log(arr187_2);
+
+// Задание 188 №1
+console.log('Результат задания 188 №1:');
+let a = -500;
+let b = 25;
+console.log (Math.abs(a-b));
+
+// Задание 189 №1
+console.log('Результат задания 189 №1:');
+let str189_1 = 'js';
+str189_1 = str189_1.toUpperCase();
+console.log(str189_1);
+
+// Задание 189 №2
+console.log('Результат задания 189 №2:');
+let str189_2 = 'JS';
+str189_2 = str189_2.toLowerCase();
+console.log(str189_2);
