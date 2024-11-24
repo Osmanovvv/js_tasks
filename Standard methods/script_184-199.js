@@ -68,3 +68,42 @@ console.log('Результат задания 189 №2:');
 let str189_2 = 'JS';
 str189_2 = str189_2.toLowerCase();
 console.log(str189_2);
+
+
+// Задание 190 №1
+console.log('Результат задания 190 №1:');
+let str = 'я учу javascript';
+let word190_1 = str.substr(2, 3); 
+let word190_2 = str.substr(6, 10);
+console.log('Метод substr: ' + (word190_1));
+console.log('Метод substr: ' + (word190_2));
+
+word190_1 = str.substring(2, 5);
+word190_2 = str.substring(6, 16);
+console.log('Метод substring: ' + (word190_1));
+console.log('Метод substring: ' + (word190_2));
+
+word190_1 = str.slice(2, 5); 
+word190_2 = str.slice(6, 16);
+console.log('Метод subslice: ' + (word190_1));
+console.log('Метод subslice: ' + (word190_2));
+
+// Задание 191 №1
+console.log('Результат задания 191 №1:');
+let str191_1 = "file:///D:/javascript_tasks_kate/STANDARD_METHODS/tasks%23184-198/kate_tasks%23184-198.html";
+let res191_1 = str191_1.startsWith('https://');
+console.log(res191_1);
+
+// Задание 191 №2
+console.log('Результат задания 191 №2:');
+let str191_2 = "file:///D:/javascript_tasks_kate/STANDARD_METHODS/tasks%23184-198/kate_tasks%23184-198.html";
+let res191_2 = str191_2.endsWith('.html');
+console.log(res191_2);
+
+// Задание 192 №1
+console.log('Результат задания 192 №1:');
+let str192_1 = '1-2-3-4-5';
+while (str192_1.includes('-')) {
+	str192_1 = str192_1.replace('-', '.');
+}
+console.log(str192_1);
