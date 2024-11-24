@@ -161,3 +161,86 @@ console.log('Результат задания 195 №2:');
 let arr195_2 = [1, 2, 3, 4, 5];
 let sub195_2 = arr195_2.slice(3);
 console.log(sub195_2);
+
+
+// Задание 196 №1
+console.log('Результат задания 196 №1:');
+let arr196_1 = [1, 2, 3, 4, 5];
+arr196_1.splice(1, 2);
+console.log(arr196_1);
+
+// Задание 196 №2
+console.log('Результат задания 196 №2:');
+let arr196_2 = [1, 2, 3, 4, 5];
+arr196_2.splice(3, 0,'a', 'b', 'c');
+console.log(arr196_2);
+
+// Задание 196 №3
+console.log('Результат задания 196 №3:');
+let arr196_3 = [1, 2, 3, 4, 5];
+arr196_3.splice(2, 0, 'a', 'b');
+arr196_3.splice(6, 0, 'c');
+arr196_3.splice(8, 0, 'e');
+console.log(arr196_3);
+
+// Задание 197 №1
+console.log('Результат задания 197 №1:');
+let arr197 = [1, 2, 3, 4, 5];
+let res197 = arr197.includes(3);
+console.log(res197);
+
+// Задание 198 №1
+console.log('Результат задания 198 №1:');
+let obj198 = {a: 1, b: 2, c: 3};
+let keys198 = Object.keys(obj198);
+console.log(keys198);
+
+// Задание 199 №1
+console.log('Результат задания 199 №1:');
+let num199_1 = 12345;
+let arr199_1 = String(num199_1).split('');
+let sum199_1 = 0;
+for (let digit199_1 of arr199_1) {
+  sum199_1 += Number(digit199_1); 
+}
+console.log(sum199_1);
+
+// Задание 199 №2
+console.log('Результат задания 199 №2:');
+let num199_2 = 12345;
+let arr199_2 = String(num199_2).split('');
+let sum199_2 = 0;
+for (let digit199_2 of arr199_2) {
+  sum199_2 += Number(digit199_2); 
+}
+console.log(sum199_2); 
+
+// Задание 199 №3
+console.log('Результат задания 199 №3:');
+let num199_3 = 12345;
+let arr199_3 = String(num199_3).split('');
+let sum199_3 = 0;
+for (let digit199_3 of arr199_3) {
+  sum199_3 += Number(digit199_3); 
+}
+console.log(sum199_3); 
+
+// Задание 199 №4
+console.log('Результат задания 199 №4:');
+let num199_4 = 12345;
+let arr199_4 = String(num199_4).split('');
+let sum199_4 = 0; 
+for (let digit199_4 of arr199_4) {
+  sum199_4 += Number(digit199_4); 
+}
+console.log(sum199_4); 
+
+// Задание 199 №5
+console.log('Результат задания 199 №5:');
+let num199_5 = 12345;
+let arr199_5 = String(num199_5).split('');
+let prod199_5 = 1; 
+for (let digit199_5 of arr199_5) {
+  prod199_5 *= Number(digit199_5); 
+}
+console.log(prod199_5); 
