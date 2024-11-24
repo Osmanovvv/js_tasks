@@ -58,18 +58,18 @@ console.log('Результат задания 204 №1:');
 function func(num = 5) {
 	console.log(num * num);
 }
-func(2); // Результатом вывода будет : 4
-func(3); // Результатом вывода будет : 9
-func();  // Результатом вывода будет : 25
+func(2); 
+func(3);
+func(); 
 
 // Задание 204 №2
 console.log('Результат задания 204 №2:');
 function func(num1 = 0, num2 = 0) {
 	console.log(num1 + num2);
 }
-func(2, 3); // Результатом вывода будет : 5
-func(3); // Результатом вывода будет : 3
-func();  // Результатом вывода будет : 0
+func(2, 3);
+func(3); 
+func();  
 
 // Задание 205 №1
 console.log('Результат задания 205 №1:');
@@ -97,3 +97,92 @@ function sqrt206_1(num) {
   }
   const res206_1 = round206_1(sqrt206_1(2));
   console.log(res206_1); 
+
+
+  // Задание 206 №2
+console.log('Результат задания 206 №2:');
+function sqrt206_2(num) {
+return Math.sqrt(num);
+}
+function sum206_2(num206_1, num206_2, num206_3) {
+return num206_1 + num206_2 + num206_3;
+}
+const res206_2 = sum206_2(sqrt206_2(2), sqrt206_2(3), sqrt206_2(4));
+console.log(res206_2); 
+
+// Задание 206 №3
+console.log('Результат задания 206 №3:');
+function sqrt206_3(num) {
+return Math.sqrt(num);
+}
+function sum206_3(num206_1, num206_2, num206_3) {
+return num206_1 + num206_2 + num206_3;
+}
+function round(num) {
+return num.toFixed(3);
+}
+const res206_3 = round(sum206_3(sqrt206_3(2), sqrt206_3(3), sqrt206_3(4)));
+console.log(res206_3); 
+
+// Задание 207 №1
+function func(num) {
+return num;
+let res = num ** 2; 
+return res;
+}
+console.log(func(3));
+
+// Задание 207 №2
+function func(num) {
+	if (num <= 0) {
+	  return Math.abs(num);
+	} else {
+	  return num ** 2; 
+	}
+  }
+  console.log(func(10)); 
+  console.log(func(-5));
+
+// Задание 207 №3
+function func(num) {
+	if (num <= 0) {
+	  return Math.abs(num); 
+	}	
+	return num ** 2; 
+  }  
+  console.log(func(10)); 
+  console.log(func(-5));
+
+// Задание 208 №1
+console.log('Результат задания 208 №1:');
+function func208(num) {
+let sum208 = 0;
+for (let i = 1; i <= num; i++) {
+  sum208 += i; 
+}
+return sum208; 
+}
+console.log(func208(5)); 
+
+// Задание 209 №1
+console.log('Результат задания 209 №1:');
+function func209(num) {
+let res209 = 0;
+while (num >= 10) {
+  num /= 2;
+  res209++; 
+}
+return res209; 
+}
+console.log(func209(160)); 
+
+// Задание 210 №1
+console.log('Результат задания 210 №1:');
+function func210(num210_1, num210_2) { 
+if (num210_1 > 0 && num210_2 > 0) {
+  return num210_1 * num210_2;
+} else {
+  return num210_1 - num210_2;
+}
+}
+console.log(func210(3, 4));  
