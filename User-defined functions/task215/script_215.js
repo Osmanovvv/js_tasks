@@ -121,4 +121,4 @@ function isPrime(num) {
     return true;
 }
 let isPrimeResult = isPrime(15);
-console.log('Число простое?: '+ isPrimeResult); ``
+console.log('Число простое?: '+ isPrimeResult);
