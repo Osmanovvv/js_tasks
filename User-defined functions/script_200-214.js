@@ -186,3 +186,72 @@ if (num210_1 > 0 && num210_2 > 0) {
 }
 }
 console.log(func210(3, 4));  
+
+
+// Задание 211 №1
+console.log('Результат задания 211 №1:');
+let arr211_1 = [12,42,64,68];
+function func211_1(arr211_1) {
+	for (let elem211_1 of arr211_1) {
+		if (elem211_1 % 2 == 0) {
+			return true;
+		}
+	}	
+	return false;
+}
+console.log(func211_1(arr211_1));
+
+// Задание 211 №2
+console.log('Результат задания 211 №2:');
+let num211_2 = 535;
+function func211_2(num211_2) {
+    let str = num211_2.toString();
+    for (let elem211_2 of str) {
+      if (Number(elem211_2) % 2 == 0) {
+        return false;
+      }
+    }
+    return true;
+  }
+  console.log(func211_2(num211_2));
+
+// Задание 211 №3
+console.log('Результат задания 211 №3:');
+  let arr211_3 = [5,15,25,25,45,55];
+  function func211_3(arr211_3) {
+    for (let i = 1; i < arr211_3.length; i++) {
+      if (arr211_3[i] === arr211_3[i - 1]) {
+        return true;
+      }
+    }
+    return false;
+  }
+  console.log(func211_3(arr211_3));
+
+// Задание 212 №1
+console.log('Результат задания 212 №1:');
+function func212_1(a, b) {
+	return a == b;
+}
+console.log(func212_1(5,10));
+
+// Задание 212 №2
+console.log('Результат задания 212 №2:');
+function func212_2(l, k) {
+	return l != k;
+}
+console.log(func212_2(1,3));
+
+// Задание 212 №3
+console.log('Результат задания 212 №3:');
+function func212_3(c, d) {
+	return c + d >= 10;
+}
+console.log(func212_3(15,12));
+
+// Задание 212 №4
+console.log('Результат задания 212 №4:');
+function func212_4(num212_4) {
+	return num212_4 >= 0;
+}
+console.log(func212_4(-5));
