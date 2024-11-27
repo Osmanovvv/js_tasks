@@ -284,3 +284,59 @@ function func245(num1, num2) {
 // 	num = 2;
 // }
 // test(1); 
+
+
+// Задание 250 №1
+console.log('Результат задачи 250 №1:');
+function func250_1() {
+	return function() {
+		return 1;
+	};
+}
+function func250_2() {
+	return function() {
+		return 2;
+	};
+}
+console.log(func250_1()() + func250_2()());
+
+// Задание 251 №1
+console.log('Результат задачи 251 №1:');
+function func251() {
+	return function() {
+		return function() {
+			return function() {
+				return '!';
+			};
+		};
+	};
+}
+
+console.log(func251()()()()); 
+
+// Задание 252 №1
+console.log('Результат задачи 252 №1:');
+function func252_1(num252_1) {
+	return function(num252_2) {
+		return function(num252_3) {
+			return num252_1 + num252_2 + num252_3;
+		};
+	};
+}
+console.log(func252_1(2)(3)(4)); 
+
+// Задание 252 №2
+console.log('Результат задачи 252 №2:');
+function func252_2(num1) {
+    return function(num2) {
+        return function(num3) {
+            return function(num4) {
+                return function(num5) {
+                    return [num1, num2, num3, num4, num5];
+                };
+            };
+        };
+    };
+}
+let result = func252_2(2)(3)(4)(5)(); 
+console.log(result); 
