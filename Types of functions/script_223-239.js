@@ -50,13 +50,11 @@ alert('Результат задания 226: ' + (func226_1() + func226_2()))
 console.log(func226_1() + func226_2())
 
 // Задание 228 №1
-// Функция,приведенная ниже, является Function Declaration,так как мы можем вызвать её до фактического определения в коде
 // function func() {
 // 	console.log('!');
 //   }
 
 // Задание 228 №2 
-// Функция,приведенная ниже, является Function Expression,так как она присваивается переменной func, и её нельзя поднять,т.е невозможно вызвать до определения
 // func(); // Выведет '!'
 // function func() {
 //   console.log('!') ;
@@ -83,3 +81,98 @@ let func2 = function() {
 function func3() {
 	console.log('!')
 }
+
+
+// Задание 231 №1
+// function func() {
+// 	console.log('!');
+// } 
+
+// Задание 231 №2
+// let func = function() {
+// 	console.log('!');
+// }; 
+
+// Задание 231 №3
+// +function() {
+// 	console.log('!');
+// } 
+
+// Задание 231 №4
+// !function func() {
+// 	console.log('!');
+// } 
+
+// Задание 231 №5
+// -function func() {
+// 	console.log('!');
+// } 
+
+// Задание 231 №6
+// 1 + function func() {
+// 	console.log('!');
+// } 
+
+// Задание 231 №7
+// (function func() {
+// 	console.log('!');
+// }) 
+
+// Задание 231 №8
+// console.log(
+// 	function() {
+// 		console.log('!');
+// 	}
+// ); 
+
+// Задание 234 №1
+// let test = function func() {
+// 	console.log('!');
+// } 
+
+// Задание 234 №2
+// console.log(
+// 	function func() {
+// 		console.log('!');
+// 	}
+// ); 
+
+// Задание 234 №3
+// +function func() {
+// 	console.log('!');
+// }
+
+// Задание 234 №4
+// function func() {
+// 	console.log('!');
+// } 
+
+// Задание 235 №1
+// -
+// function func() {
+// 	console.log('!');
+// } 
+
+// Задание 235 №2
+// -1;
+// function func() {
+// 	console.log('!');
+// } 
+
+// Задание 235 №3
+// -1
+// function func() {
+// 	console.log('!');
+// } 
+
+// Задание 235 №4
+// 1
+// function func() {
+// 	console.log('!');
+// } 
+
+// Задание 235 №5
+// -1-
+// function func() {
+// 	console.log('!');
+// } 
