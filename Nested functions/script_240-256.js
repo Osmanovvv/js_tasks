@@ -340,3 +340,80 @@ function func252_2(num1) {
 }
 let result = func252_2(2)(3)(4)(5)(); 
 console.log(result); 
+
+// Задание 253 №1
+console.log('Результат задачи 253 №1:');
+function each(arr253_1, callback) {
+	let result253_1 = [];
+	
+	for (let elem253_1 of arr253_1) {
+		result253_1.push( callback(elem253_1) ); 
+	}
+	
+	return result253_1;
+}
+
+let result253_1 = each([5, 10, 15, 25, 30], function(num253_1) {
+	return num253_1 ** 2;
+});
+
+console.log(result253_1);
+
+// Задание 253 №2
+console.log('Результат задачи 253 №2:');
+function each(arr253_2, callback) {
+	let result253_2 = [];
+	for (let elem253_2 of arr253_2) {
+		result253_2.push( callback(elem253_2) ); 
+	}
+	return result253_2;
+}
+let result253_2 = each(['kate', 'grebeneva'], function(str253_2) {
+	return str253_2.split("").reverse().join("");
+});
+console.log(result253_2);
+
+// Задание 253 №3
+console.log('Результат задачи 253 №3:');
+function each(arr253_3, callback) {
+	let result253_3= [];
+	for (let elem253_3 of arr253_3) {
+		result253_3.push( callback(elem253_3) ); 
+	}
+	return result253_3;
+}
+let result253_3 = each(['kate', 'grebeneva'], function(str253_3) {
+	let splitted = str253_3.split("");
+	return splitted[0].toUpperCase()+ str253_3.slice(1);;
+});
+console.log(result253_3);
+
+// Задание 254 №1
+console.log('Результат задачи 254 №1:');
+function square(num254) {
+	return num254 ** 3;
+   }
+   function each(arr254, callback) {
+	 let result254 = [];
+	 for (let i = 0; i < arr254.length; i++) {
+	   result254.push(callback(arr254[i]));
+	 }
+	 return result254;
+   }
+   
+   let result254 = each([2, 5, 10], square);
+   console.log(result254);
+
+   // Задание 256 №1
+console.log('Результат задачи 256 №1:');
+function filter(arr256, callback) {
+	let result256  = [];
+	for (let elem256 of arr256) {
+		if ( callback(elem256) === true ) {
+			result256 .push(elem256);
+		}
+	}
+	return result256 ;
+}
+let result256 = filter([1, 2, 3, 4, 5], elem256 => elem256 > 0);
+console.log(result256)
