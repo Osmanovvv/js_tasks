@@ -42,3 +42,83 @@ let func241_3 = function() {
 };
 const result241_3 = test241(func241_1, func241_2, func241_3);
 console.log(result241_3); 
+
+
+// Задание 242 №1
+console.log('Результат задания 242 №1:');
+function test242_1(func242_1) {
+    console.log(func242_1(3));
+}
+test242_1(function(num) {
+    return num * num * num; 
+});
+
+// Задание 242 №2
+console.log('Результат задания 242 №2:');
+function func242_2(num) {
+    return num * num * num; 
+}
+function test242_2(func242_2) {
+    console.log(func242_2(3));
+}
+test242_2(func242_2);
+
+// Задание 242 №3
+console.log('Результат задания 242 №3:');
+let func242_3 = function(num) {
+    return num * num * num; // Возвращаем куб числа
+};
+function test242_3(func242_3) {
+    console.log(func242_3(3));
+}
+test242_3(func242_3);
+
+// Задание 242 №4
+function func242_4(a, b) {
+    return a + b; 
+}
+function test242_4(func242_4) {
+    alert('Результат задания 242 №4: ' + func242_4(2, 3)); 
+}
+test242_4(func242_4);
+
+// Задание 243 №1
+console.log('Результат задания 243 №1:');
+function test243(num, func243_1, func243_2) {
+    return func243_1(num) + func243_2(num);
+}
+function square(num) {
+    return num * num;
+}
+function cube(num) {
+    return num * num * num;
+}
+const result243 = test243(3, square, cube);
+console.log(result243); 
+
+// Задание 244
+console.log('Результат задания 244:');
+function test244(arr244, func244) {
+    for (let i = 0; i < arr244.length; i++) {
+        arr244[i] = func244(arr244[i]); 
+    }
+    
+    return arr244; 
+}
+let result244 = test244([1, 2, 3], function(num) {
+    return num * num * num; 
+});
+console.log(result244); 
+
+// Задание 245 №1
+console.log('Результат задания 245 №1:');
+function func245(num1, num2) {
+	function square245(num) {
+	  return num * num;
+	}
+	function cube245(num) {
+	  return num * num * num;
+	}
+	return square245(num1) + cube245(num2);
+  }
+  console.log(func245(2, 3)); 
