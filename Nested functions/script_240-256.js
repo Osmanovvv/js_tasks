@@ -122,3 +122,64 @@ function func245(num1, num2) {
 	return square245(num1) + cube245(num2);
   }
   console.log(func245(2, 3)); 
+
+
+// Задание 246 №1
+//   function test() {
+// 	let num = 1;
+// 	function func() {
+// 	  console.log(num);
+// 	}
+// 	func();
+//   }
+//   test();
+
+// Задание 246 №2
+// function test() {
+// 	let num = 1;
+// 	function func() {
+// 	  console.log(num);
+// 	}
+//   }
+//   test();
+
+// Задание 246 №3
+// function test() {
+// 	let num = 1;	
+// 	function func() {
+// 	  console.log(num);
+// 	}	
+// 	func();
+//   }
+
+// Задание 246 №4
+// function test() {
+// 	let num;
+// 	function func() {
+// 	  console.log(num);
+// 	}
+// 	num = 1;
+// 	func(); // Первый вызов
+// 	num = 2;
+// 	func(); // Второй вызов
+//   }
+//   test();
+
+// Задание 247 №1
+// function test(num1, num2) {
+// 	function func() {
+// 		console.log(num1 + num2);
+// 	}
+// 	func();
+// }
+// test(1, 2); 
+
+// Задание 247 №2
+// function test(num1, num2) {
+// 	function func() {
+// 		console.log(num1 + num2);
+// 	}
+// 	num1 = 2;
+// 	func();
+// }
+// test(1, 2); 
