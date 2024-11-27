@@ -176,3 +176,110 @@ function func3() {
 // function func() {
 // 	console.log('!');
 // } 
+
+// Задание 236 №1
+// Ниже представленная функция - Function Declaration
+// function func() {
+// 	console.log('!');
+// }
+// +1; 
+
+// Задание 236 №2
+// Ниже представленная функция - Function Declaration
+// function func() {
+// 	console.log('!');
+// } + 1; 
+
+// Задание 236 №3
+// Ниже представленная функция - Function Expression
+// +function func() {
+// 	console.log('!');
+// } + 1; 
+
+// Задание 236 №4
+// Ниже представленная функция - Function Expression
+// +
+// function func() {
+// 	console.log('!');
+// } + 1; 
+
+// Задание 236 №5
+// Ниже представленная функция - Function Declaration
+// + 1
+// function func() {
+// 	console.log('!');
+// } + 1; 
+
+// Задание 236 №6
+// Ниже представленная функция - Function Declaration
+// function func() {
+// 	console.log('!');
+// } + console.log('!'); 
+
+// Задание 237 №1
+console.log('Результат задания 237:');
+let arr237 = [
+	function() { return 1; },
+	function() { return 2; },
+	function() { return 3; },
+  ];
+
+// Задание 237 №2
+console.log(arr237[2]()); 
+
+// Задание 237 №4
+for (let func237 of arr237) {
+	console.log(func237());
+  }
+
+// Задание 237 №3
+let sum237 = arr237[0]() + arr237[1]() + arr237[2]();
+console.log(sum237); 
+
+// Задание 238 №1
+console.log('Результат задания 238 №1:');
+let obj238 = {
+	func238_1: function() {return 1},
+	func238_2: function() {return 2},
+	func238_3: function() {return 3},
+};
+
+for (let key in obj238) {
+	console.log(obj238[key]())
+}
+
+// Задание 238 №2
+console.log('Результат задания 238 №2:');
+let res238 = obj238.func238_1() + obj238.func238_2() + obj238.func238_3();
+console.log(res238); 
+
+// Задание 239 №1
+console.log('Результат задания 239 №1:');
+let task239 = {
+	sum: function (arr239) {
+        let result = 0;
+        for (let num of arr239) {
+            result += num;
+        }
+        return result;
+    },
+    sumSquares: function (arr239) {
+        let result = 0;
+        for (let num of arr239) {
+            result += num ** 2;
+        }
+        return result;
+    },
+    sumCubes: function (arr239) {
+        let result = 0;
+        for (let num of arr239) {
+            result += num ** 3;
+        }
+        return result;
+    }
+};
+  let arr239 = [5, 10, 15, 20];
+
+  console.log('Сумма всех элементов массива = ' + (task239.sum(arr239)));   
+  console.log('Сумма всех элементов массива,возведенных в квадрат = ' + (task239.sumSquares(arr239))); 
+  console.log('Сумма всех элементов массива,возведенных в куб = ' + (task239.sumCubes(arr239))); 
