@@ -242,4 +242,4 @@ function func(arr222_6) {
 }
 let arr222_6 = [1, 2, 3];
 func(arr222_6);
-console.log(arr222_6);
+console.log(arr222_6);  
