@@ -8,7 +8,7 @@ console.log(squareRoots);
 
 // Задание 279 №2
 console.log('Результат задачи 279 №2:');
-let strings = ['katushka', 'winx', 'disney'];
+let strings = ['server', 'eldar', 'alim'];
 let exclamatedStrings = strings.map(function(str279_2) {
     return str279_2 + '!';
 });
@@ -16,7 +16,7 @@ console.log(exclamatedStrings);
 
 // Задание 279 №3
 console.log('Результат задачи 279 №3:');
-let words = ['cat', 'dog', 'pony'];
+let words = ['not', 'dogs', 'car'];
 let reversedWords = words.map(function(word) {
     return word.split('').reverse().join('');
 });
