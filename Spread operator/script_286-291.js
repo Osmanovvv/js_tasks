@@ -47,3 +47,21 @@ console.log(arr);
 arr1 = [1, 2, 3];
 arr2 = [...arr1];
 console.log(arr2);
+
+
+// Задание 290 №1
+// let arr = [...'12345'];
+// console.log(arr); 
+
+// Задание 290 №2
+// let arr = ['a', ...'12345'];
+// console.log(arr);
+
+// Задание 290 №3
+// let arr = [...'12345', ...'56789'];
+// console.log(arr);
+
+// Задание 290 №4
+// let arr1 = ['a', 'b', 'c'];
+// let arr2 = [...arr1, ...'12345'];
+// console.log(arr2);
