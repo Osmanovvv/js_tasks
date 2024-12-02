@@ -58,3 +58,102 @@ let months315 = [
 	'июл', 'авг', 'сен', 'окт', 'ноя', 'дек'
 ];
 console.log(months315[month315]);
+
+
+// Задание 316 №1
+console.log('Результат задачи 316 №1:');
+let date316 = new Date(2006, 5, 30); 
+let day316  = date316.getDay();
+let days316 = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
+console.log(days316[day316]);
+
+// Задание 317 №1
+console.log('Результат задачи 317 №1:');
+let date317 = new Date(2025, 0, 1, 0, 0, 0);
+console.log(date317.getTime());
+
+// Задание 318 №1
+console.log('Результат задачи 318 №1:');
+let date1988 = new Date(1988, 2, 1); 
+let date2000 = new Date(2000, 0, 10);
+let diff318_1 = date2000.getTime() - date1988.getTime();
+let daysDiff318_1 = diff318_1 / (1000 * 60 * 60 * 24);
+console.log("Количество дней между 1 марта 1988 года и 10 января 2000 года:", Math.floor(daysDiff318_1));
+
+// Задание 318 №2
+console.log('Результат задачи 318 №2:');
+let birth_date = new Date(2006, 5, 30); 
+let now = new Date()
+let yearsDiff = now.getFullYear() - birth_date.getFullYear();
+let monthsDiff = now.getMonth() - birth_date.getMonth();
+// Общее количество месяцев
+let totalMonths = yearsDiff * 12 + monthsDiff;
+// Проверяю, если текущий день меньше дня рождения в текущем месяце
+if (now.getDate() < birth_date.getDate()) {
+    totalMonths--; // Уменьшаю на 1, если месяц неполный
+}
+console.log("Количество месяцев между моим рождением и текущей датой:", totalMonths);
+ 
+console.log('Результат задачи 319:');
+let date319_1 = new Date(2000, 8, 1); 
+let date319_2 = new Date(2010, 1, 15); 
+// Задание 319 №1
+let diffMilliseconds319 = date319_2 - date319_1; 
+console.log("Разница в миллисекундах:", diffMilliseconds319);
+// Задача 319 №2
+let diffDays319 = diffMilliseconds319 / (1000 * 60 * 60 * 24); 
+console.log("Разница в днях:", Math.floor(diffDays319));
+// Задача 319 №3
+let monthsDiff319 = (date319_2.getFullYear() - date319_1.getFullYear()) * 12 + (date319_2.getMonth() - date319_1.getMonth());
+console.log("Разница в месяцах:", monthsDiff319);
+// Задача 319 №4
+let yearsDiff319 = date319_2.getFullYear() - date319_1.getFullYear();
+console.log("Разница в годах:", yearsDiff319);
+
+// Задание 320 №1
+// let date = new Date(2018, 15, 1);
+// console.log(date);
+
+// Задание 320 №2
+// let date = new Date(2018, 15, 1);
+// console.log(date); 
+
+// Задание 320 №3
+// let date = new Date(2018, 3, 31);
+// console.log(date); 
+
+// Задание 320 №4
+// let date = new Date(2018, 1, 31);
+// console.log(date); 
+
+// Задание 320 №5
+// let date = new Date(2018, 12, 33);
+// console.log(date); 
+
+// Задание 320 №6
+// let date = new Date(2018, 33, 33);
+// console.log(date);
+
+// Задание 320 №7
+// let date = new Date(2018, 5, 0);
+// console.log(date); 
+
+// Задание 320 №8
+// let date = new Date(2018, 0, 0);
+// console.log(date); 
+
+// Задание 320 №9
+// let date = new Date(2018, -12, -33);
+// console.log(date); 
+
+// Задание 320 №10
+// let date = new Date(2018, 0, 1, 23, 0, 60);
+// console.log(date); 
+
+// Задание 320 №11
+// let date = new Date(2018, 0, 1, 23, 60, 0);
+// console.log(date); 
+
+// Задание 320 №12
+let date = new Date(2018, 0, 1, 100, 100, 100);
+console.log(date); 
