@@ -157,3 +157,65 @@ console.log("Разница в годах:", yearsDiff319);
 // Задание 320 №12
 let date = new Date(2018, 0, 1, 100, 100, 100);
 console.log(date); 
+
+
+// Задание 321 №1
+console.log('Результат задачи 321 №1:');
+function getLastDayOfMonth(year, month) {
+  return new Date(year, month, 0).getDate();
+}
+const lastDayMay2023 = getLastDayOfMonth(2023, 5); 
+console.log(lastDayMay2023);
+
+// Задание 321 №2
+console.log('Результат задачи 321 №2:');
+const lastDayMay2025 = getLastDayOfMonth(2025, 5);
+const lastDate = new Date(2025, 4, lastDayMay2025); 
+const dayOfWeek = lastDate.getDay();
+const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+console.log("Последний день мая 2025 года:", days[dayOfWeek]);
+
+// Задание 322 №1
+console.log('Результат задачи 322 №1:');
+function isLeap(year) {
+  if (year % 4 === 0) {
+      if (year % 100 === 0) {
+          return year % 400 === 0;
+      }
+      return true;
+  }
+  return false;
+}
+console.log("Год високосный? Ответ:",isLeap(2020));
+console.log("Год високосный? Ответ:",isLeap(2023)); 
+
+// Задание 323 №1
+console.log('Результат задачи 323 №1:');
+function checkDate(year, month, day) {
+  let date = new Date(year, month, day);
+  return date.getFullYear() === year && date.getMonth() === month && date.getDate() === day;
+}
+console.log("Дата 31.12.2025 введена корректно? Ответ:",checkDate(2025, 11, 31)); 
+console.log("Дата 32.12.2025 введена корректно? Ответ:",checkDate(2025, 11, 32)); 
+
+// Задание 324 №1
+console.log('Результат задачи 324 №1:');
+let now_date = new Date();
+let date = new Date(now_date.getFullYear(), 11, 31); 
+let day_week = date.getDay();
+const daysOfWeek = ["воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"];
+console.log("31 декабря " + now_date.getFullYear() + " года будет день недели - " + daysOfWeek[day_week]);
+
+// Задание 325 №1
+console.log('Результат задачи 325 №1:');
+now_date = new Date();
+let previousMonthDate = new Date(now_date.getFullYear(), now_date.getMonth() - 1, now_date.getDate());
+const days_of_week = ["воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"];
+console.log("День недели " + previousMonthDate.toLocaleDateString() + " был " + days_of_week[previousMonthDate.getDay()]);
+
+// Задание 325 №2
+console.log('Результат задачи 325 №2:');
+now_date = new Date();
+let firstDayPreviousMonth = new Date(now_date.getFullYear(), now_date.getMonth() - 1, 1);
+const day = ["воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"];
+console.log("Первое число предыдущего месяца " + firstDayPreviousMonth.toLocaleDateString() + " было в/во " + day[firstDayPreviousMonth.getDay()]);
