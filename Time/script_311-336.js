@@ -25,3 +25,36 @@ function addZero(num) {
   let month312 = addZero(date312.getMonth() + 1);
   let year312 = date312.getFullYear();
   console.log(hours312 + ':' + minutes312 + ':' + seconds312 + ' ' + day312 + '.' + month312 + '.' + year312);
+
+
+// Задание 313 №1
+console.log('Результат задачи 313 №1:');
+let str313 = '2024-11-01'; 
+let res313 = str313.split('-').reverse().join('.'); 
+console.log(res313);
+
+console.log('Результат задачи 314:');
+// Задание 314 №1
+let date314 = new Date();
+let dayNumber = date314.getDay();
+console.log("Номер текущего дня недели:", dayNumber);
+// Задание 314 №2
+let isWeekend = (dayNumber === 0 || dayNumber === 6);
+if (isWeekend) {
+    console.log("Сегодня выходной день.");
+} else {
+    console.log("Сегодня рабочий день.");
+}
+// Задание 314 №3
+let daysUntilSunday = (7 - dayNumber) % 7; // % 7 для обработки случая, когда сегодня воскресенье
+console.log("Дней до ближайшего воскресенья:", daysUntilSunday);
+
+// Задание 315 №1
+console.log('Результат задачи 315 №1:');
+let date315 = new Date();
+let month315  = date315.getMonth();
+let months315 = [
+	'янв', 'фев', 'мар', 'апр', 'май', 'июн',
+	'июл', 'авг', 'сен', 'окт', 'ноя', 'дек'
+];
+console.log(months315[month315]);
