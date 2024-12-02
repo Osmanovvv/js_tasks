@@ -155,8 +155,8 @@ console.log("Разница в годах:", yearsDiff319);
 // console.log(date); 
 
 // Задание 320 №12
-let date = new Date(2018, 0, 1, 100, 100, 100);
-console.log(date); 
+// let date = new Date(2018, 0, 1, 100, 100, 100);
+// console.log(date); 
 
 
 // Задание 321 №1
